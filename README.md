@@ -1,6 +1,11 @@
 # P2SH
 Tutorial on how to deal with very basic P2SH transactions on the Dogecoin blockchain.
 
+This tutorial is based on https://github.com/BlockchainCommons/Learning-Bitcoin-from-the-Command-Line/blob/master/10_2_Building_the_Structure_of_P2SH.md
+and the available information on https://en.bitcoin.it/wiki/Script
+
+No warranty or guarantee of any kind! Use at own risk!
+
 ## Dependencies
 You will need a 
 * Dogecoin Core Wallet to create raw transactions, decode the script and broadcast the TXs (https://github.com/dogecoin/dogecoin)
