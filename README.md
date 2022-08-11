@@ -59,6 +59,9 @@ or use `OP_7 OP_ADD OP_10 OP_EQUAL` to remove warnings in btcc.
 btcc will output the serialized script:
 ![image](https://user-images.githubusercontent.com/54002590/174666751-069ecd69-94fc-4f25-90eb-ef97353f89d6.png)
 
+There is also an online IDE which can be used to generate scripts: http://siminchen.github.io/bitcoinIDE/build/editor.html
+Please note, that the this tutorial uses a short notation for the numbers 7 and 10 and the generator in the link will always define the bytes first (see in "Assembly" on the editor's page) and will use hex numbers (03 07 OP_ADD 0A OP_EQUAL).
+
 ## 2. Derive the address from the script and fund it
 To add funds protected by the locking script we will now derive an Dogecoin address form that locking script with the following commands:
 `decodescript 57935a87`
